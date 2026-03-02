@@ -40,14 +40,15 @@ section{
   border-radius: 20px;
 }
 .columns{
-  display: block;
+  Display: flex;
+  flex-direction: row;
   justify-content: center;
-  align-items: strecth;
+  flex-wrap: wrap;
 }
 .column{
   Background: grey;
   Margin: 20px;
-  width: 1000px;
+  width: 400px;
   max-Width: 100%;
   Margin-left: auto;
   Margin-left: auto;
@@ -106,9 +107,15 @@ section{
 .sub button:hover {
   background: red;
 }
+footer{
+  Display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 img{
   text-align: center;
   Background: black;
   Color: white;
-  Margin: auto;
+  Margin: 0 auto;
 }
