@@ -1,0 +1,114 @@
+Body{
+  Background: black;
+  Margin: 0;
+}
+header{
+  Background: #C0C0C0;
+  Text-align: center;
+  Padding: 20px;
+  Margin: 10px;
+  border-radius: 20px;
+}
+.taskbar {
+    display: flex;
+    Justify-content: center;
+    gap: 10px;
+    background: #C0C0C0;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .task-button {
+    padding: 8px 14px;
+    background: grey;
+    border-radius: 6px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    border: 1px solid #bbb;
+  }
+
+  .task-button:hover {
+    background: red;
+  }
+
+section{
+  Background: #C0C0C0;
+  Text-align: center;
+  Padding: 20px;
+  Margin: 10px;
+  border-radius: 20px;
+}
+.columns{
+  display: block;
+  justify-content: center;
+  align-items: strecth;
+}
+.column{
+  Background: grey;
+  Margin: 20px;
+  width: 1000px;
+  max-Width: 100%;
+  Margin-left: auto;
+  Margin-left: auto;
+  padding: 10px;
+  text-align: left;
+  border-radius: 50px;
+}
+#sec4 {
+  max-width: 400px;
+  margin: auto;
+  padding: 25px;
+  background: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.form input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid red;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.form input:focus {
+  border-color: #0077cc;
+  outline: none;
+  box-shadow: 0 0 4px rgba(0,119,204,0.4);
+}
+
+.sub button {
+  width: 100%;
+  padding: 12px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.sub button:hover {
+  background: red;
+}
+img{
+  text-align: center;
+  Background: black;
+  Color: white;
+  Margin: auto;
+}
